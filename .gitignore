@@ -1,5 +1,4 @@
-data.attacks.csv
-scr.data_clean.csv
-scr.abb.py
-src._pycache_
+attacks.csv/
+scr.abb.py/
+src._pycache_/
 
