@@ -14,14 +14,10 @@ The pandas, matplotlib and seaborn manuals from which I have extracted informati
 in a proper way. 
 Also, I have used this line of code of mwaskom from Stackoverflow:
 
-import seaborn as sns
     titanic = sns.load_dataset("titanic")
     sns.countplot(y="deck", hue="class", data=titanic, palette="Greens_d",
                   order=titanic.deck.value_counts().iloc[:3].index)
-                  
-                
-                
-
+                 
 
 ## Conclusions
 
