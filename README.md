@@ -12,10 +12,11 @@ My hipothesis was that sharks were not as dangerous as people thought.
 https://regexr.com/3cr6f - to check my regular expresions for finding and replacing patterns in the dataframe
 The pandas, matplotlib and seaborn manuals from which I have extracted information of how to treat with NaN, droping columns, reordering the dataframe and plotting the information 
 in a proper way. 
-Also, I have used this line of code of mwaskom from Stackoverflow: ```import seaborn as sns
-                                                        titanic = sns.load_dataset("titanic")
-                                                        sns.countplot(y="deck", hue="class", data=titanic, palette="Greens_d",
-                                                                      order=titanic.deck.value_counts().iloc[:3].index)```
+Also, I have used this line of code of mwaskom from Stackoverflow:
+```import seaborn as sns
+    titanic = sns.load_dataset("titanic")
+    sns.countplot(y="deck", hue="class", data=titanic, palette="Greens_d",
+                  order=titanic.deck.value_counts().iloc[:3].index)```
 
 
 ## Conclusions
